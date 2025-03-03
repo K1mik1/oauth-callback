@@ -1,0 +1,10 @@
+<html>
+<head><title>OAuth Callback</title></head>
+<body>
+  <h1>OAuth Callback</h1>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    console.log("OAuth Code:", urlParams.get("code"));
+  </script>
+</body>
+</html>
